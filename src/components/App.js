@@ -31,7 +31,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="ui container">
+      <div className="ui container inverted">
         <SearchBar onTermSubmit={this.onTermSubmit} />
         <div className="ui stackable grid">
           <div className="ui row">

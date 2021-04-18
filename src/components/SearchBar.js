@@ -13,9 +13,9 @@ export class SearchBar extends Component {
 
   render() {
     return (
-      <div className="search-bar ui segment">
-        <form className="ui form" onSubmit={this.onFormSubmit}>
-          <div className="field">
+      <div className="search-bar ui segment inverted">
+        <form className="ui form inverted" onSubmit={this.onFormSubmit}>
+          <div className="field inverted">
             <label>Video Search</label>
             <input
               onChange={this.onInputChange}

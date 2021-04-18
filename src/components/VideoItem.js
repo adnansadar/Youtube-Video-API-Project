@@ -9,8 +9,8 @@ const VideoItem = ({ video, onVideoSelect }) => {
         src={video.snippet.thumbnails.medium.url}
         alt="trending"
       />
-      <div className="content">
-        <div className="header">{video.snippet.title}</div>
+      <div className="content inverted">
+        <div className="header inverted">{video.snippet.title}</div>
       </div>
     </div>
   );
